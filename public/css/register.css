@@ -1,0 +1,105 @@
+
+/* MAIN--------------------- */
+
+main{
+    background-color: #ebebeb;
+   
+}
+
+
+
+
+label{
+        font-family: 'Roboto', sans-serif;
+    }
+    .container {
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: rgb(248, 248, 248);
+        
+      }
+  
+      .container p {
+        text-align: center;
+        font-size: x-large;
+      }
+  
+      .container form {
+        display: grid;
+        gap: 10px;
+      }
+  
+      .container label {
+        font-family: 'Roboto', sans-serif;
+      }
+      .container input[type="text"]:focus,
+      .container input[type="date"]:focus,
+      .container input[type="password"]:focus{
+        outline: none;
+      }
+
+
+
+      .container input[type="text"],
+      .container input[type="date"],
+      .container input[type="password"],
+      .container input[type="file"] {
+        width: 100%;
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+      }
+  
+      .container input[type="radio"],
+      .container input[type="checkbox"] {
+        margin-right: 5px;
+      }
+  
+      .container input[type="submit"]
+       {
+        padding: 8px 16px;
+        border-radius: 8px;
+        border: none;
+        background-color: #1259c3;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 450ms;
+        
+
+      }
+  
+      .container input[type="submit"]:hover
+      {
+        background-color: #0022AA;
+        transition-property: background-color;}
+
+       
+       .container input[type="button"]{
+       padding: 8px 16px;
+       border-radius: 8px;
+       border: none;
+       background-color: #ccc;
+       color: #fff;
+       cursor: pointer;
+       transition: background-color 450ms;}
+       
+       
+       
+       
+       
+        .container input[type="button"]:hover {
+        background-color: #666;
+        transition-property: background-color;
+       }
+       
+       
+       
+       
+       
+       
+        @media(min-width: 768px){
+        .container {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);}}

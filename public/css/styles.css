@@ -1,0 +1,233 @@
+
+
+/* MAIN--------------------- */
+.imgbanner{
+ 
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+ 
+}
+
+
+main{
+    background-color: #ebebeb;
+  
+}
+.seccion-productos{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul{
+    margin: 0;
+}
+
+
+
+
+p{
+    font-size: 12px;
+}
+
+.titulares{
+    font-size: 24px;
+    color: #666;
+    margin: 15px;
+}
+
+.truck{
+text-align: center; 
+display: flex;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -15px;
+transform:rotate(0deg);
+transition:opacity 450ms;
+align-items: center;
+justify-content: center;
+}
+
+.truck:hover{
+transform:rotate(-90deg);
+transition-property:transform;
+
+}
+
+.precio-descuento{
+    display: flex;
+}
+
+
+
+
+
+
+
+#cajaproductos{
+   
+    
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    transition:box-shadow 450ms;
+         
+}
+
+#cajaproductos:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    transition-property:box-shadow;
+
+}
+#cajaproductos:hover .descripciones-productos{
+    opacity: 100% ;
+    transition-property: opacity;
+}
+
+
+#cajasecproductos{
+    
+    position: relative;
+    text-align: left;
+    background-color: white;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    align-items: center;
+
+    
+}
+
+
+.descripciones-productos{color:#666; height: calc(100% - 2 * 50%);clear: both;}
+.precio{
+    font-size: 18px;
+    width: 30%;
+    float: left;
+    align-items: center;}
+
+    .descuentos{
+    font-size: 16px;
+    color: #39b54a;
+    width: 70%;
+    float: left;
+    align-items: center;
+    margin-top: 2.2vh;
+   }
+
+
+
+
+
+img{
+    width: 55%;
+}
+
+.descripciones-productos{
+    opacity: 0% ;
+    transition:opacity 450ms;
+
+
+}
+
+
+.footer-descipciones{color: #666;}
+
+/*VISTA PC/TABLET-------------------------------------------------------------*/
+@media(min-width: 768px){
+    
+.descripciones{
+    display: flex;
+    font-size: 16px;
+
+}
+
+    
+
+.banner{
+    display: inline;
+}
+
+
+.productos-ultima_visita{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.productos-ofertas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+       
+}
+.footer-descipciones{
+    text-align: center;
+    display: inline-block;
+
+}
+#cajaproductos{
+   
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    margin: 10px; 
+    box-sizing: border-box;
+    transition:box-shadow 450ms;
+}
+
+
+
+
+div.tittle{
+    display: flex;
+    width: 100%;
+    
+}
+.descripciones-productos{
+    opacity: 0% ;
+    transition:opacity 450ms;
+
+
+}
+}
+
+
+/* VISTA ESCRITORIO-------------------------------------*/
+@media(min-width: 1279px){
+    
+    #cajaproductos{
+   
+        background-color: white;
+        text-align: center;
+        justify-content: space-evenly;
+        width: 20%;
+        margin: 5px; 
+        box-sizing: border-box;
+        transition:box-shadow 450ms;}
+
+
+
+}
