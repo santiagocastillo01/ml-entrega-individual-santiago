@@ -131,6 +131,18 @@ margin-right: 50px;}
     
 .footer-descipciones{color: #666;}
 
+#iconofooter{
+    
+    transition: color 450ms;}
+    
+    
+    
+    
+    
+     #iconofooter:hover {
+     color: #666;
+     transition-property: color;}
+
 @media(min-width: 768px){
 .main-footer{
     display: flex;
